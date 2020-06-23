@@ -1,0 +1,307 @@
+/* NOTE
+html is set to 62.5% so that all the REM measurements throughout Skeleton
+are based on 10px sizing. So basically 1.5rem = 15px :) */
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #222;
+}
+h1 {
+  font-size: 4em;
+  line-height: 1.2;
+}
+h2 {
+  font-size: 3.6em;
+  line-height: 1.25;
+}
+h3 {
+  font-size: 3em;
+  line-height: 1.3;
+}
+nav {
+  display: flex;
+}
+textarea {
+  width: 100%;
+  background-color: #3c424d;
+  border: none;
+  color: #fff;
+  margin: 1.5em 0 0.5em;
+  padding-left: 1em;
+  font-size: 1.6qem;
+}
+input {
+  margin-top: 1.2em;
+  margin-bottom: 2em;
+  color: #fff;
+  padding-left: 1em;
+  font-size: 1.2em;
+}
+
+/* GLOBALES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 90%;
+  padding: 1em 0;
+}
+.btn {
+  margin-top: 1em;
+  padding: 0.3em 1em;
+  background-color: #fff;
+  box-shadow: inset 0 0 0 5px #fff;
+  color: #242943;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #242943;
+  box-shadow: inset 0 0 0 2px #fff;
+}
+
+/* Header */
+#header {
+  background-color: #282b34;
+}
+.logo svg {
+  width: 6em;
+}
+.nav-top a {
+  color: white;
+  margin-right: 1em;
+  font-size: 1.3em;
+}
+.nav-top a:last-child {
+  margin-right: 0;
+}
+
+/* HOME */
+#home {
+  background-image: url(../img/home-img.jpg);
+  min-height: 38em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center center;
+  background-size: cover;
+
+}
+.home-me {
+  text-align: center;
+  background-color: #282b34;
+  color: #f7f7f7;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 2.8em;
+}
+.home-me span {
+  font-size: 2.4em;
+  font-weight: lighter;
+}
+.home-me p {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+.img-yo img {
+  border: 2px solid #fff;
+  border-radius: 0.5em;
+  width: 15em;
+}
+
+/* Sobre mi*/
+.tittle {
+  text-align: center;
+  font-size: 0.7em;
+  padding: 5em 0 3em;
+  color: #d52349;
+}
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 90%;
+  margin: 0 auto 5em;
+}
+.box {
+  width: 30%;
+  text-align: center;
+  border-left: 6px solid #d52349;
+  border-radius: 0.3em;
+  padding: 1em;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+}
+
+.box svg {
+  width: 8em;
+  display: block;
+  margin: 0 auto;
+}
+.box p,
+.box li {
+  font-size: 1.1em;
+  text-align: justify;
+}
+.box h3 {
+  margin: 0.3em;
+  font-size: 2em;
+}
+
+/* PORTAFOLIO */
+#portf {
+  background-color: #3c424d;
+}
+.port-img {
+  padding-bottom: 3em;
+}
+.port-img img {
+  display: block;
+  margin: auto;
+  border: 2px solid #fff;
+  width: 30%;
+  border-radius: 0.2em;
+}
+
+.tittle-ptf h2 {
+  text-align: center;
+  font-size: 3em;
+  padding: 0.7em 0 0.3em;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1pt;
+}
+
+/* FOOTER */
+#footer {
+  background-color: #282b34;
+}
+#inner {
+  border-bottom: solid 1px #3c424d;
+  display: flex;
+  color: #fff;
+  list-style: none;
+}
+.contacto {
+  border-right: solid 1px #3c424d;
+  padding: 3em 4em 1em;
+  width: 65%;
+}
+
+#cont-me h2 {
+  font-size: 1.8em;
+  font-weight: 500;
+  padding-bottom: 0.8em;
+}
+#cont-me p {
+  text-align: justify;
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #858484;
+}
+.fields {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2em;
+  width: 100%;
+}
+
+.field {
+  width: 100%;
+  padding-right: 1.5em;
+}
+.half {
+  width: 50%;
+}
+.field:nth-child(2),
+.field:nth-child(3) {
+  padding-right: 0;
+}
+.fields label {
+  margin-bottom: 1em;
+}
+
+.field input[type="text"],
+.field input[type="email"] {
+  height: 2.7em;
+  width: 100%;
+  background-color: #3c424d;
+  border: none;
+}
+.action input[type="submit"] {
+  background-color: #fff;
+  box-shadow: inset 0 0 0 2px #ffffff;
+  color: #242943;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-align: center;
+  border: none;
+  padding: 0.8em;
+}
+.action input[type="submit"]:hover {
+  color: #fff;
+  background-color: #242943;
+  box-shadow: inset 0 0 0 2px #fff;
+}
+.boxes-bot {
+  min-width: 35%;
+}
+.box-cont {
+  padding-top: 1em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+  border-bottom: 1px solid rgb(60, 66, 77);
+}
+.box-cont:first-child{
+  padding: 0;
+}
+.logo-btm svg {
+  width: 10em;
+  display: block;
+  margin: 1.6em auto;
+}
+.box-cont h3 {
+  font-size: 2.2em;
+  font-weight: lighter;
+  color: tomato;
+}
+.box-cont a,
+.box-cont span {
+  color: #fff;
+  font-size: 1.2em;
+}
+.icon svg {
+  width: 2em;
+  fill: #fff;
+}
+.box-cont:last-child {
+  padding-bottom: 3em;
+}
+.copy {
+  color: #fff;
+  text-align: center;
+  font-size: 1.3em;
+  padding: 1em 0;
+}
