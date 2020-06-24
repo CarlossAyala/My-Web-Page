@@ -1,1 +1,87 @@
-body{font-family:"Titillium Web", sans-serif}label{font-size:1.3em}hr{margin:0;border-color:#3c424d}a{text-decoration:none;color:#fff}a:hover{text-decoration:none;color:#fff}#ctn{border-right:solid 1px #3c424d}#nav-top{background-color:#282b34;color:#fff}#nav-top a{color:#fff}#header{background-image:url(../img/home-img.jpg);height:100%}#yo-img{border:2px solid #fff;border-radius:0.5em}.btn-me{padding:0.3em 1em;background-color:#fff;box-shadow:inset 0 0 0 5px #fff;color:#242943;border-radius:0;font-size:1.3em;font-weight:600;letter-spacing:0.2em}.btn-me:hover{color:#fff;background-color:#242943;box-shadow:inset 0 0 0 2px #fff}#sobre-mi{background-image:url(../img/banner.jpg);background-repeat:no-repeat;background-size:cover}#portaf{background-color:#3c424d}#footer{background-color:#282b34}#inner h2{font-size:2.5em}#inner h3{color:#ff6347;font-size:2em}#footer textarea{resize:none;width:100%;background-color:#3c424d;border:none;color:#fff;border-radius:0;padding-left:1em}#footer input{background-color:#3c424d;border:none;color:#fff;border-radius:0}
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+label {
+  font-size: 1.3em;
+}
+hr {
+  margin: 0;
+  border-color: #3c424d;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+#ctn {
+  border-right: solid 1px #3c424d;
+}
+#nav-top {
+  background-color: #282b34;
+  color: #fff;
+}
+#nav-top a {
+  color: #fff;
+}
+
+#header {
+  background-image: url(../img/home-img.jpg);
+  height: 100%;
+  background-size: cover;
+}
+
+#yo-img {
+  border: 2px solid #fff;
+  border-radius: 0.5em;
+}
+.btn-me {
+  padding: 0.3em 1em;
+  background-color: #fff;
+  box-shadow: inset 0 0 0 5px #fff;
+  color: #242943;
+  border-radius: 0;
+  font-size: 1.3em;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+}
+.btn-me:hover {
+  color: #fff;
+  background-color: #242943;
+  box-shadow: inset 0 0 0 2px #fff;
+}
+#sobre-mi {
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#portaf {
+  background-color: #3c424d;
+}
+#footer {
+  background-color: #282b34;
+}
+#inner h2 {
+  font-size: 2.5em;
+}
+#inner h3 {
+  color: #ff6347;
+  font-size: 2em;
+}
+#footer textarea {
+  resize: none;
+  width: 100%;
+  background-color: #3c424d;
+  border: none;
+  color: #fff;
+  border-radius: 0;
+  padding-left: 1em;
+}
+#footer input {
+  background-color: #3c424d;
+  border: none;
+  color: #fff;
+  border-radius: 0;
+}
