@@ -66,7 +66,6 @@ function clearForm(e) {
   name.classList.remove("is-valid");
   email.classList.remove("is-valid");
   message.classList.remove("is-valid");
-  name.focus();
   e.preventDefault();
 }
 
