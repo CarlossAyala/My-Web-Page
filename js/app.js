@@ -110,7 +110,6 @@ function sendMsg(e) {
     //Pasado un tiempo, eliminamos el cuadro de texto y vaciamos el formulario
     setTimeout(function () {
       sendAlert.remove();
-      name.focus();
     }, 9000);
   }, 2500);
 }
