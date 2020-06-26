@@ -170,21 +170,27 @@
               <p class="lead">Tienes consejos para mejorar mi web o quieres saber cómo pude crear una página como esta? Háblame</p>
             </div>
             <div>
-              <form action="#footer">
+              <form id="sendMsg" action="#">
                 <div class="form-row">
-                  <div class="form-group col-md-6">
+                  <div id="div-name" class="form-group col-md-6">
                     <label for="name">Nombre</label>
-                    <input type="name" class="form-control">
+                    <input id="name" type="text" class="form-control">
                   </div>
-                  <div class="form-group col-md-6">
+                  <div id="div-email" class="form-group col-md-6">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control">
+                    <input id="email" type="email" class="form-control">
                   </div>
-                  <div class="form-group container-fluid px-1">
+                  <div id="div-textArea" class="form-group container-fluid px-1">
                     <label for="message">Mensaje</label>
-                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                    <textarea id="txtArea" class="form-control" rows="7" id="comment"></textarea>
                   </div>
-                  <button type="submit" class="btn btn-me ml-1">ENVIAR MENSAJE</button>
+
+                  <div id="boxMsgAlert"></div>
+
+                  <button id="btnSend" type="submit" class="btn btn-me pb-2 ml-1 my-3">ENVIAR MENSAJE 
+                    <div id="spinner" class="spinner-border text-success" role="status" style="display: none;"></div>
+                  </button>
+                  <button id="btnClear" type="submit" class="btn btn-me ml-3 my-3">LIMPIAR FORMULARIO</button>
                 </div>
               </form>
             </div>
